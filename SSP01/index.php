@@ -3,10 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="LastName, FirstName">
+    <meta name="author" content="Edwards, Victor">
     <meta name="description" content="CS2623 Server-Side Programming — SSP01">
     <meta name="keywords" content="PHP, server-side, CS2623, OCCC">
-    <title>CS2623 SSP01: LastName</title>
+    <title>CS2623 SSP01: Edwards</title>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
