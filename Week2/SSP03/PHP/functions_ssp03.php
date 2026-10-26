@@ -1,7 +1,5 @@
 <?php
-// Suppress the PHP 5 "Unsupported declare 'strict_types'" warning on Apollo
-error_reporting(E_ALL & ~E_WARNING);
-declare(strict_types=1);
+// declare(strict_types=1); // Commented out for Apollo PHP 5.x compile-time compatibility
 
 /**
  * Outputs the opening <table> tag and header rows with a caption.
