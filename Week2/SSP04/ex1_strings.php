@@ -1,5 +1,14 @@
 <?php
+// Suppress the PHP 5 "Unsupported declare 'strict_types'" warning on Apollo
+error_reporting(E_ALL & ~E_WARNING);
 declare(strict_types=1);
+
+// Polyfill for str_contains() so PHP 8 code runs on Apollo's older PHP 5 server
+if (!function_exists('str_contains')) {
+    function str_contains($haystack, $needle) {
+        return $needle === '' || strpos($haystack, $needle) !== false;
+    }
+}
 
 // Sample product data
 $description = 'Learning PHP 8 string functions is fun and powerful!';
